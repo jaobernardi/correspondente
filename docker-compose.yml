@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  twitter:
+    container_name: 'Twitter'
+    build:
+      context: ./twitter
+      dockerfile: Dockerfile
